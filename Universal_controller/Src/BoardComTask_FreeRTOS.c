@@ -214,7 +214,7 @@ extern UART_HandleTypeDef huart6;
 
 	  if(can_protocol_data_analyzing(&hfdcan2, &RxHeader, Rx_Can_Data))
 	  {
-
+		  HAL_IWDG_Refresh(&hiwdg1);
 		  uint32_t address = RxHeader.Identifier;
 		  uint32_t DataLength = RxHeader.DataLength >> 16;
 			switch(address & 0x7E0)
