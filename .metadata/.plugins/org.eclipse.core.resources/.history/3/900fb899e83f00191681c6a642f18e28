@@ -1,0 +1,6 @@
+BoardComTask_FreeRTOS.c:16:6:can_tx_func	56	static
+BoardComTask_FreeRTOS.c:35:10:check_adr_func	8	static
+BoardComTask_FreeRTOS.c:52:6:FDCAN_Config	80	static
+BoardComTask_FreeRTOS.c:89:6:rs485_tx_task	56	static
+BoardComTask_FreeRTOS.c:115:6:rs485_rx_task	96	dynamic
+BoardComTask_FreeRTOS.c:180:6:board_com_task	160	static

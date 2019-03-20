@@ -1,0 +1,3 @@
+StartDefaultTask_FreeRTOS.c:20:6:adc_measure	40	static
+StartDefaultTask_FreeRTOS.c:37:6:ADC_Task	16	static
+StartDefaultTask_FreeRTOS.c:58:6:StartDefaultTask	240	static
